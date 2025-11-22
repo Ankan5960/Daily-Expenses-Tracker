@@ -7,7 +7,7 @@ import {
   TrendingDown,
   Save,
   PieChart,
-  DollarSign,
+  IndianRupee,
   ArrowUpRight,
   ArrowDownLeft,
   Trash2,
@@ -449,7 +449,7 @@ export default function App() {
                           Amount
                         </label>
                         <div className="relative group">
-                          <DollarSign
+                          <IndianRupee 
                             size={20}
                             className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-blue-500 transition-colors"
                           />
